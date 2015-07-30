@@ -9,6 +9,7 @@ public class Coffee {
     double volume;
     double price;
     double calories;
+    String image;
 
     public double getCaffeine() {
         return caffeine;
@@ -48,5 +49,13 @@ public class Coffee {
 
     public void setVolume(double volume) {
         this.volume = volume;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }

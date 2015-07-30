@@ -33,28 +33,28 @@
                 android:layout_gravity="center"
                 android:layout_margin="4dp"
                 android:src="@drawable/ic_coffee_cup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:id="@+id/imageView" />
             <TextView
                 android:layout_gravity="center"
                 android:textColor="@android:color/white"
                 android:textSize="30dp"
-                android:text="180"
+                android:text=""
                 android:layout_centerInParent="true"
                 android:src="@drawable/ic_coffee_cup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/coffeeCalories" />
+                android:id="@+id/coffeeName" />
             <TextView
                 android:layout_gravity="center"
                 android:textColor="@android:color/white"
                 android:textSize="30dp"
-                android:text="Espresso"
+                android:text=""
                 android:src="@drawable/ic_coffee_cup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/coffeeName" />
+                android:id="@+id/coffeeCalories" />
         </LinearLayout>
 
 

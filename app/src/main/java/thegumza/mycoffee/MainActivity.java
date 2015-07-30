@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         layoutManager = new LinearLayoutManager(MainActivity.this);
         searchbox = (SearchBox)findViewById(R.id.searchbox);
-        searchbox.setLogoText("Search coffee");
+        searchbox.setLogoText("Search");
         searchbox.setBackgroundColor(Color.parseColor("#795548"));
         recyclerView = (RecyclerView) findViewById(R.id.list);
         recyclerView.setLayoutManager(layoutManager);
