@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+
+        <com.txusballesteros.widgets.FitChart
+
+            android:layout_centerInParent="true"
+            android:id="@+id/fitChart"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            app:strokeSize="10dp"
+            app:valueStrokeColor="#3E2723"
+            app:backStrokeColor="#ffffff"
+            app:animationMode="overdraw" />
+
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:src="@drawable/ic_coffee_cup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" />
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:text="180"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_coffee_cup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coffeeCalories" />
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:text="Espresso"
+                android:src="@drawable/ic_coffee_cup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coffeeName" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
